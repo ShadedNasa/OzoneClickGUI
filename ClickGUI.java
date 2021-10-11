@@ -29,5 +29,15 @@ public class ClickGUI extends Mod {
 	public void onEnable() {
 		toggle();
 	}
+	
+	public void addSlider(String name, int min, int max, int defaultVal, boolean onlyIntegers) {
+		Client.getOzone().setmgr.rSetting(new Setting(name, this, defaultVal, min, max, onlyIntegers));
+	}
+	
+	public Setting addCheckbox(String name, boolean defaultVal) {
+		Setting newset = new Setting(name, this, defaultVal);
+		Client.getOzone().setmgr.rSetting(newset);
+		return newset;
+	}
 
 }
