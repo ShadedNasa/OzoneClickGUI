@@ -13,3 +13,5 @@ https://media.discordapp.net/attachments/873238985714053121/897160532665176104/u
 
 # Note this is my first clickgui so please if there are any issues (there probably are) tell me.
 # Also watch out for my extremely messy code.
+
+<sub><sup>(if you cant tell this was made for a bit of a joke)</sup></sub>
